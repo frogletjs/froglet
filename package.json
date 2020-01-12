@@ -1,0 +1,26 @@
+{
+  "name": "@froglet/root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Froglet is an open source tool to scaffold and manage your UI components.",
+  "keywords:": [
+    "storybook",
+    "pattern-lab",
+    "drupal",
+    "gatsby"
+  ],
+  "homepage": "https://github.com/frogletjs/froglet#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frogletjs/froglet.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/frogletjs/froglet/issues"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}

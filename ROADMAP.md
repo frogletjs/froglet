@@ -25,9 +25,12 @@ Storybook Component Library for Gatsby.
 * `froglet-storybook-wordpress`: Scaffold `create-project` a 
 Storybook Component Library for Wordpress.
 
-
-
 ## Future API Commands
 
 * `@froglet extract`: Extract Components.
 * `@froglet publish`: Publish Components.
+
+## Ideas
+
+* Install contributed components.
+    * Discrete components exist in monorepo. Add via `@froglet add component-name`
