@@ -8,13 +8,19 @@ overrides we'd expect to use in Drupal. The directory structure is here:
 
 ```
 |-- includes
+    |-- admin.theme.inc
     |-- blocks.theme.inc
     |-- content.theme.inc
+    |-- field.theme.inc
     |-- form.theme.inc
     |-- layout.theme.inc
     |-- media.theme.inc
     |-- misc.theme.inc
     |-- navigation.theme.inc
+    |-- node.theme.inc
+    |-- suggestions.theme.inc
+    |-- user.theme.inc
+    |-- views.theme.inc
 |-- src
     |-- CustomTools
         |-- CustomTools.php
@@ -34,7 +40,7 @@ project as a whole. Simply put, you're safe to "hack Froglet core" here.
 ### Configuration
 
 `Froglet.php` includes a set of global constants configuration specific to 
-a installation of Smosh: 
+a installation of Froglet: 
 
 * `THEME_NAME`: The Drupal theme name, default is set as Froglet.
 
@@ -47,7 +53,7 @@ If you have an additional helper function you'd like to include in your app,
 simply extend the functionality of `FrogletTools.php` in `CustomTools.php`:
 
 ```php
-class CustomTools extends FrogletTools
+class CustomTools extends FrogletTools {};
 ``` 
 
 This step will make sure any changes to your theme are not lost if you update
@@ -64,7 +70,7 @@ use Drupal\froglet\CustomTools\CustomTools;
 Now whenever you wish to use a helper:
 
 ```php
-CustomTools::yourHelperFunction()
+CustomTools::yourHelperFunction();
 ```
 
 Note this usage assumes you've declared a public static function and that it's
