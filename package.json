@@ -1,8 +1,9 @@
 {
   "name": "@froglet/root",
-  "private": true,
   "version": "1.0.0",
-  "description": "Froglet is an open source tool to scaffold and manage your UI components.",
+  "description": "Froglet is an open source tool to scaffold and manage your UI component and integrations.",
+  "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
+  "private": true,
   "keywords:": [
     "storybook",
     "pattern-lab",
@@ -14,11 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/frogletjs/froglet.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bugs": {
     "url": "https://github.com/frogletjs/froglet/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "lerna": "^3.20.2"

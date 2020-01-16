@@ -1,0 +1,32 @@
+{
+  "name": "@froglet/cli",
+  "version": "0.0.1",
+  "description": "A CLI to bootstrap design system projects",
+  "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
+  "keywords": [
+    "cli",
+    "create-project",
+    "init"
+  ],
+  "bin": {
+    "@froglet/froglet": "bin/froglet",
+    "froglet": "bin/froglet"
+  },
+  "homepage": "https://github.com/frogletjs/froglet/packages/cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frogletjs/froglet.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/frogletjs/froglet/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^4.1.0",
+    "esm": "^3.2.25"
+  }
+}

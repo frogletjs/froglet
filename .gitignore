@@ -1,0 +1,24 @@
+# Lock Files
+yarn.lock
+package-lock.json
+
+# Package Lock Files
+packages/*/yarn.lock
+packages/*/package-lock.json
+
+# OS Generated
+*.swp
+.DS_Store
+.DS_Store?
+._.DS_Store
+._.DS_Store?
+
+# Dependencies
+node_modules
+
+#IDE Plugins
+.idea
+
+# Errors
+npm-debug.log
+php_errors.log
