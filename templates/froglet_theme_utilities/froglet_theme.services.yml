@@ -1,0 +1,6 @@
+services:
+  froglet_theme_utilities.twig_extension:
+    arguments: ['@renderer']
+    class: Drupal\froglet_theme_utilities\TwigExtension\FrogletThemeUtilitiesTwig
+    tags:
+      - { name: twig.extension }

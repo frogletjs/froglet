@@ -1,0 +1,8 @@
+name: Froglet Theme Utilities
+type: module
+description: Utilities to extend Froglet themes.
+package: Froglet
+core: 8.x
+dependencies:
+  - components:components
+  - preprocess:preprocess
