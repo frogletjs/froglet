@@ -1,19 +1,18 @@
-// This file needs a better name.
-// The responsibility of this file will be the raw business logic of loading apps.
-
 /**
- * Pseudocode - Create
- * The create command should:
- * - Add webpack configuration to root of project.
- * - init a component library tool (Pattern Lab / Storybook) to path from user input
- * - save path for component-library as config in froglet.config.json at root
- * - Add application (drupal theme) to path from user input,
- * - save path for component-library as config in froglet.config.json at root
- *
+ * Roadmap Pseudocode - Create
+ * `@froglet/cli create`: Initializes config for froglet enabled project. This command is responsible for:
+ * * Write `froglet.config.json`: Shared File Directory Info.
+ * * * Initial Requirement: `DRUPAL_THEME_PATH` variable.
+ * * * Initial Requirement: `COMPONENT_LIBRARY_PATH` variable.
+ * * Initialize `.yo-rc.json` at Project Root.
+ * * Initialize WebPack and Dependencies.
+ * * * Handle Default Config + Custom Config
+ * * Initialize ESLINT
+ * * Initialize git (optional)
  */
 
 const create = function() {
-  console.log('Create Nerp');
+  console.log('Create Froglet Project');
 };
 
 module.exports = create;

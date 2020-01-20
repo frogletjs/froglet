@@ -5,10 +5,9 @@
   "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
   "private": true,
   "keywords:": [
-    "storybook",
-    "pattern-lab",
-    "drupal",
-    "gatsby"
+    "Storybook",
+    "Pattern Lab",
+    "Drupal"
   ],
   "homepage": "https://github.com/frogletjs/froglet#readme",
   "repository": {
