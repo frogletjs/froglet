@@ -25,7 +25,7 @@ responsible for:
   * Initialize ESLINT
   * Initialize git (optional)
 
-* `@froglet/generate-drupal-theme`: Yeoman Generator for Drupal Theme. This is
+* `@froglet/generate-froglet-drupal`: Yeoman Generator for Drupal Work. This is
 responsible for:
   * Scaffold Drupal 8 Theme.
   * Resolve Root `.yo-rc.json`
@@ -41,7 +41,6 @@ responsible for:
    * Next Steps:
      * Integrate `generate:pattern-lab` to scaffold Pattern Lab CL.    
 
-
 ## Stage 2
 * Upgrade Generators for Component Creators.
   * Create UI Components and Connectors.
@@ -51,18 +50,18 @@ responsible for:
 ## Stage 3
 * `@froglet/ds`: Implement Documentation and Publish feature to have a web-hosted
 Design System.
-* Optional. Integrate with Storybook DSM.
+* Optional. Integrate with Storybook / InVision DSM.
 
 ## Beyond
 * Upgrade `@froglet/cli create`: for Wordpress project.
 * Upgrade `@froglet/generate-froglet-component-library` for Wordpress projects.
 * Upgrade `@froglet/ds` for Wordpress projects.
-* Create `@froglet/generate-froglet-wordpress-theme`.
+* Create `@froglet/generate-froglet-wordpress`.
 
 ## Future API Commands
-* `@froglet extract`: Extract Components.
-* `@froglet publish`: Publish Components.
+* `@froglet/cli extract`: Extract Components.
+* `@froglet/cli publish`: Publish Components.
 
 ## Ideas
 * Contributed / Default Components
-    * Discrete components exist in monorepo. Add via `@froglet add component-name`
+  * Discrete components exist in monorepo. Add via `@froglet add component-name`
