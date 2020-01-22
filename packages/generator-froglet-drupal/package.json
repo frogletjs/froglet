@@ -1,0 +1,30 @@
+{
+  "name": "@froglet/generator-froglet-drupal",
+  "version": "0.0.1",
+  "description": "A Yeoman Generator for a Froglet Drupal Theme and Modules.",
+  "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "drupal"
+  ],
+  "homepage": "https://github.com/frogletjs/froglet#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frogletjs/froglet.git",
+    "directory": "packages/generator-froglet-drupal"
+  },
+  "bugs": {
+    "url": "https://github.com/frogletjs/froglet/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "yeoman-generator": "^4.4.0"
+  }
+}
