@@ -14,8 +14,13 @@ path in project configuration. Further CLI updates will `extract` all custom
 code to easily reset a project as well as enable `publish`
 
 ## Stage 1 / MVP
+* Abstract / Package JS Config
+  * Create Custom ESLINT Config 
+  [Package](https://eslint.org/docs/developer-guide/shareable-configs). 
+  * Create Webpack [Scaffold](https://webpack.js.org/guides/scaffolding/). 
+
 * `@froglet/cli create`: Initializes froglet enabled project. This command is
-responsible for:
+ responsible for:
   * Write `froglet.config.json`: Shared File Directory Info.
     * Initial Requirement: `DRUPAL_THEME_PATH` variable.
     * Initial Requirement: `COMPONENT_LIBRARY_PATH` variable.
