@@ -1,0 +1,19 @@
+{
+  "name": "@froglet/prettier-config",
+  "version": "0.0.1",
+  "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
+  "description": "",
+  "keywords": [
+    "prettier"
+  ],
+  "homepage": "https://github.com/frogletjs/froglet#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frogletjs/froglet.git",
+    "directory": "packages/generator-froglet-drupal"
+  },
+  "bugs": {
+    "url": "https://github.com/frogletjs/froglet/issues"
+  },
+  "license": "MIT"
+}
