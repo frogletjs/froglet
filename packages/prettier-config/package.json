@@ -2,7 +2,7 @@
   "name": "@froglet/prettier-config",
   "version": "0.0.1",
   "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
-  "description": "",
+  "description": "Custom Prettier config for Froglet projects.",
   "keywords": [
     "prettier"
   ],
