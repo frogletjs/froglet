@@ -10,7 +10,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/frogletjs/froglet.git",
-    "directory": "packages/generator-froglet-drupal"
+    "directory": "packages/prettier-config"
   },
   "bugs": {
     "url": "https://github.com/frogletjs/froglet/issues"
