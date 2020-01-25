@@ -1,4 +1,6 @@
-# Froglet Prettier Config
+# @froglet/prettier-config
+
+[![npm version](https://badge.fury.io/js/%40froglet%2Fprettier-config.svg)](https://badge.fury.io/js/%40froglet%2Fprettier-config)
 
 Configuration for sharing 
 [Prettier](https://prettier.io/docs/en/configuration.html#sharing-configurations)

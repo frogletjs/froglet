@@ -1,0 +1,29 @@
+{
+  "name": "@froglet/eslint-config-base",
+  "version": "0.0.1",
+  "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
+  "description": "Custom ESLINT config for Froglet projects.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "airbnb",
+    "prettier"
+  ],
+  "homepage": "https://github.com/frogletjs/froglet#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frogletjs/froglet.git",
+    "directory": "packages/eslint-config-base"
+  },
+  "bugs": {
+    "url": "https://github.com/frogletjs/froglet/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.6.0"
+  }
+}

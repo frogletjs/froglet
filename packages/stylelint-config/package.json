@@ -1,0 +1,39 @@
+{
+  "name": "@froglet/stylelint-config",
+  "version": "0.0.1",
+  "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
+  "description": "Custom Stylelint config for Froglet projects.",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "config",
+    "prettier"
+  ],
+  "homepage": "https://github.com/frogletjs/froglet#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frogletjs/froglet.git",
+    "directory": "packages/stylelint-config-froglet"
+  },
+  "bugs": {
+    "url": "https://github.com/frogletjs/froglet/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-order": "2.2.1",
+    "stylelint-prettier": "1.1.2",
+    "stylelint-scss": "3.13.0",
+    "stylelint": "^12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "stylelint": "9.5.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=9.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
