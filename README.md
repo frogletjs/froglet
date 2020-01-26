@@ -3,7 +3,7 @@
 This monorepo holds all packages dedicated to `@froglet` packages.
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-[![GitHub License](https://img.shields.io/github/license/frogletjs/froglet)](https://github.com/frogletjs/froglet)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/frogletjs/froglet)
 [![GitHub Issues](https://img.shields.io/github/issues/frogletjs/froglet)](https://github.com/frogletjs/froglet/issues)
 [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
