@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@froglet/eslint-config-base",
   "version": "0.0.1",
   "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
@@ -7,6 +8,7 @@
   "keywords": [
     "eslint",
     "eslintconfig",
+    "config",
     "airbnb",
     "prettier"
   ],

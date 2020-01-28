@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@froglet/generator-froglet-drupal",
   "version": "0.0.1",
   "description": "A Yeoman Generator for a Froglet Drupal Theme and Modules.",

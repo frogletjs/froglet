@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@froglet/cli",
   "version": "0.0.1",
   "description": "A CLI to bootstrap design system projects",

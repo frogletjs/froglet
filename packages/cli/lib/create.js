@@ -9,6 +9,19 @@
  * * * Handle Default Config + Custom Config
  * * Initialize ESLINT
  * * Initialize git (optional)
+ *
+ * Additional Template Files for Create
+ * .browserslistrc
+ * .editorconfig
+ * .eslintignore
+ * .huskyrc?
+ * .nvmrc
+ * .prettierignore
+ * .stylelintignore
+ * babel.config.js
+ * jest.config.js
+ * postcss.config.js
+ *
  */
 
 const create = function() {

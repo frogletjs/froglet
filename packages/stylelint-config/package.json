@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@froglet/stylelint-config",
   "version": "0.0.1",
   "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
