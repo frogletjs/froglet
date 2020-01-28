@@ -8,7 +8,7 @@ requirements for JS library or feature.
 ## Installation
 
 Install via npm:
-`npm i eslint @froglet/eslint-config-base --save-dev`
+`npm i eslint @froglet/eslint-config --save-dev`
 
 ## Usage
 
