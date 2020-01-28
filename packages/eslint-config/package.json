@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@froglet/eslint-config-base",
+  "name": "@froglet/eslint-config",
   "version": "0.0.1",
   "author": "J. Ryan Conklin <jryanconklin@gmail.com>",
   "description": "Custom ESLINT config for Froglet projects.",
@@ -16,7 +16,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/frogletjs/froglet.git",
-    "directory": "packages/eslint-config-base"
+    "directory": "packages/eslint-config"
   },
   "bugs": {
     "url": "https://github.com/frogletjs/froglet/issues"

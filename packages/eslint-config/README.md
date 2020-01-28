@@ -1,4 +1,4 @@
-# @froglet/eslint-config-base
+# @froglet/eslint-config
 
 This package is WIP.
 
